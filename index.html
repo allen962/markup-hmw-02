@@ -5,23 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" />
 </head>
 
 <body>
     <!-- Header section -->
-    <header>
-        <nav>
-            <a href="/">WEBSTUDIO</a>
+    <header class="nav-list">
+        <nav >
+            <ul class="logo">
+                <li class="web">
+                  <a href="/">WEB</a>
+                </li>
+                <li class="studio">
+                  <a href="/">STUDIO</a>
+                </li>
+              </ul>
+            
             <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li class="bt-studio "><a href="#">Studio</a></li>
+                <li class="portfolio"><a href="#">Portfolio</a></li>
+                <li class="contacts"><a href="#">Contacts</a></li>
             </ul>
         </nav>
         <address>
             <ul>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="num"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                <li class="info-studio"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             </ul>
         </address>
     </header>
@@ -29,12 +40,31 @@
     <!-- Main section -->
     <main>
         <section class="hero"><!-- Hero section -->
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
-            <img src="images/Dark-bg.jpg" alt="Hero Image">
+            <ul>
+                <li>
+                    <div class="upper-content">
+                        <p class="effective">Effective Solutions</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="lower-content">
+                        <p class="effective">for Your Business</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="order-service">Order Service</div>
+                        </div>
+                </li>
+            </ul>
+
+            
+             
+              
+              
         </section>
 
-        <section class="--feature"><!-- Feature section -->
+        <section class="feature"><!-- Feature section -->
             <ul>
                 <li>
                     <h3>Strategy</h3>
@@ -56,6 +86,7 @@
         </section>
 
         <section class="doing"><!-- What are we doing section -->
+            
             <h2>What are we doing</h2>
             <ul>
                 <li>
@@ -76,12 +107,13 @@
             </ul>
         </section>
 
-        <section class="Team"><!-- Our team section -->
-            <h3>Our Team</h3>
+        <section class="team"><!-- Our team section -->
+            <ul class="top-margin">
+                <li><h3>Our Team</h3></li>
+            </ul>
             <ul class="image-list">
-                <li class="white-bg">
-                    <img src="images/Lightbg.jpg" alt="white background">
-                </li>
+               
+                
                 <li class="image-box1">
                     <img src="images/person1.jpg" alt="person">
                     <h3>Mark Guerrero</h3>
@@ -104,17 +136,25 @@
                 </li>
             </ul>
         </section>
+
     </main>
 
     <!-- Footer section -->
-    <footer>
-        <a href="/">WEBSTUDIO</a>
-        <p class="footer-paragraph">
-            Increase the flow of customers and <br>
-            sales for your business with digital <br>
-            marketing & growth solutions.
-        </p>
-    </footer>
+ <footer class="dark-bg">
+    <ul class="logo2">
+        <li class="f-web">
+          <a href="/">WEB</a>
+        </li>
+        <li class="f-studio">
+          <a href="/">STUDIO</a>
+        </li>
+      </ul>
+    <p class="footer-paragraph">
+        Increase the flow of customers and <br>
+        sales for your business with digital <br>
+        marketing & growth solutions.
+    </p>
+</footer>
 </body>
 
 </html>
