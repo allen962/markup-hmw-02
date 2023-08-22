@@ -1,140 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" />
-    
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Header section -->
     <header class="nav-list">
-        <nav >
-            <ul class="logo">
-                <li class="web">
-                  <a href="/">WEB</a>
-                </li>
-                <li class="studio">
-                  <a href="/">STUDIO</a>
-                </li>
-              </ul>
-            
-            <ul>
-                <li class="bt-studio "><a href="#">Studio</a></li>
-                <li class="portfolio"><a href="#">Portfolio</a></li>
-                <li class="contacts"><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li class="num"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                <li class="info-studio"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            </ul>
-        </address>
+      <nav>
+        <ul class="logo">
+          <li class="web">
+            <a href="index.html">WEB</a>
+          </li>
+          <li class="studio">
+            <a href="index.html">STUDIO</a>
+          </li>
+        </ul>
+
+        <ul class="select">
+          <li class="bt-studio"><a href="index.html">Studio</a></li>
+          <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+          <li class="contacts"><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul class="contact-list">
+          <li class="num">
+            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+          <li class="info-studio">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+      </address>
     </header>
 
- <!-- button section -->
- <section class="filter-list-btn">
-  
- <ul class="filter-list">
-    <li class="filter-btn-active">
-      <button class="label">All</button>
-    </li>
-    <li class="filter-btn">
-      <button class="label">Web Site</button>
-    </li>
-    <li class="filter-btn">
-      <button class="label">App</button>
-    </li>
-    <li class="filter-btn">
-      <button class="label">Design</button>
-    </li>
-    <li class="filter-btn">
-      <button class="label">Marketing</button>
-    </li>
-  </ul>
-</section>
+    <!-- button section 
+    <section class="filter-list-btn">
+      <ul class="filter-list">
+        <li class="filter-btn-active">
+          <button class="label">All</button>
+        </li>
+        <li class="filter-btn">
+          <button class="label">Web Site</button>
+        </li>
+        <li class="filter-btn">
+          <button class="label">App</button>
+        </li>
+        <li class="filter-btn">
+          <button class="label">Design</button>
+        </li>
+        <li class="filter-btn">
+          <button class="label">Marketing</button>
+        </li>
+      </ul>
+    </section>-->
 
-<!-- Main section -->
-<main>
-<section>
+    <!-- Main section -->
+    <main>
+      <section class="filter-list-btn">
+        <ul class="filter-list">
+          <li class="filter-btn">
+            <button data-color="rgba">All</button>
+          </li>
+          <li class="filter-btn">
+            <button data-color="rgba">Web Site</button>
+          </li>
+          <li class="filter-btn">
+            <button data-color="rgba">App</button>
+          </li>
+          <li class="filter-btn">
+            <button data-color="rgba">Design</button>
+          </li>
+          <li class="filter-btn">
+            <button data-color="rgba">Marketing</button>
+          </li>
+        </ul>
 
-<ul class="row1">
-    <li class="project1">
-        <img src="images/bank-image.jpg" alt="bank">
-        <h3>Banking App Interface Concept</h3>
-        <p>App</p>
-    </li>
-    <li class="project2">
-        <img src="images/scanner-image.jpg" alt="barcode">
-        <h3>Cashless Payment</h3>
-        <p>Marketing</p>
-    </li>
+        <ul class="row1">
+          <li class="project1">
+            <img src="images/bank-image.jpg" alt="bank" />
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
+          </li>
+          <li class="project2">
+            <img src="images/scanner-image.jpg" alt="barcode" />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
 
-    <li class="project3">
-        <img src="images/laptop-image.jpg" alt="laptop">
-        <h3>Meditation App</h3>
-        <p>App</p>
-    </li>
-    
-</ul>
+          <li class="project3">
+            <img src="images/laptop-image.jpg" alt="laptop" />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+        </ul>
 
-<ul class="row2">
-    <li class="project1">
-        <img src="images/driving-image.jpg" alt="drive">
-        <h3>Taxi Service</h3>
-        <p>Marketing</p>
-    </li>
-    <li class="project2">
-        <img src="images/cp-screen-image.jpg" alt="bank">
-        <h3>Screen Illustrations</h3>
-        <p>Design</p>
-    </li>
+        <ul class="row2">
+          <li class="project1">
+            <img src="images/driving-image.jpg" alt="drive" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="project2">
+            <img src="images/cp-screen-image.jpg" alt="bank" />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
 
-    <li class="project3">
-        <img src="images/female-image.jpg" alt="bank">
-        <h3>Online Courses</h3>
-        <p>Marketing</p>
-    </li>
-    
-</ul>
+          <li class="project3">
+            <img src="images/female-image.jpg" alt="bank" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
 
-<ul class="row3">
-    <li class="project1">
-        <img src="images/stories-person-image.jpg" alt="bank">
-        <h3>Instagram Stories Concept</h3>
-        <p>Design</p>
-    </li>
-    <li class="project2">
-        <img src="images/organic-food-image.jpg" alt="bank">
-        <h3>Organic Food</h3>
-        <p>Web Site</p>
-    </li>
+        <ul class="row3">
+          <li class="project1">
+            <img src="images/stories-person-image.jpg" alt="bank" />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li class="project2">
+            <img src="images/organic-food-image.jpg" alt="bank" />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
 
-    <li class="project3">
-        <img src="images/cup-coffee-image.jpg" alt="bank">
-        <h3>Fresh Coffee</h3>
-        <p>Web Site</p>
-    </li>
-    
-</ul>
-</section>
+          <li class="project3">
+            <img src="images/cup-coffee-image.jpg" alt="bank" />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-
-
-
-
-</main>
-
-
-
- <!-- Footer section -->
- <footer class="dark-bg">
-    <ul class="logo2">
+    <!-- Footer section -->
+    <footer class="dark-bg">
+      <ul class="logo2">
         <li class="f-web">
           <a href="/">WEB</a>
         </li>
@@ -142,11 +157,11 @@
           <a href="/">STUDIO</a>
         </li>
       </ul>
-    <p class="footer-paragraph">
-        Increase the flow of customers and <br>
-        sales for your business with digital <br>
+      <p class="footer-paragraph">
+        Increase the flow of customers and <br />
+        sales for your business with digital <br />
         marketing & growth solutions.
-    </p>
-</footer>
-</body>
+      </p>
+    </footer>
+  </body>
 </html>
