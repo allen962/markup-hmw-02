@@ -17,7 +17,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
- 
 }
 
 /* navbar logo*/
@@ -30,10 +29,10 @@ body {
 }
 
 .web a {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 .studio a {
-  color: #2e2f42;
+  color: var(--logo-black);
 }
 
 .logo {
@@ -59,7 +58,7 @@ body {
   line-height: 1.5em;
   font-weight: 500;
   font-family: Roboto;
-  color: #2e2f42;
+  color: var(--logo-black);
   text-align: left;
 }
 .portfolio a {
@@ -69,7 +68,7 @@ body {
   line-height: 1.5em;
   font-weight: 500;
   font-family: Roboto;
-  color: #2e2f42;
+  color: var(--logo-black);
   text-align: left;
 }
 
@@ -80,7 +79,7 @@ body {
   line-height: 1.5em;
   font-weight: 500;
   font-family: Roboto;
-  color: #2e2f42;
+  color: var(--logo-black);
   text-align: left;
 }
 
@@ -93,7 +92,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5em;
   font-family: Roboto;
-  color: #434455;
+  color: var(--logo-black);
   text-align: left;
 }
 
@@ -104,7 +103,7 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5em;
   font-family: Roboto;
-  color: #434455;
+  color: var(--logo-black);
   text-align: left;
 }
 
@@ -131,7 +130,7 @@ body {
   line-height: 1.07em;
   display: inline-block;
   font-family: Roboto;
-  color: #fff;
+  color: var(--primary-white-color);
   text-align: center;
   width: 496px;
 }
@@ -166,11 +165,11 @@ body {
 }
 
 .button .order-service:hover {
-  background-color: #3b47b3; 
+  background-color: #3b47b3;
 }
 .order-service {
   background-color: #404bbf;
-  color: #fff;
+  color: var(--primary-white-color);
   padding: 12px 24px;
   border-radius: 4px;
   cursor: pointer;
@@ -231,11 +230,11 @@ body {
 /* selection button */
 
 .select a:hover {
-  color: #404bbf;
+  color: var(--button-primary-hover);
 }
 
 .contact-list a:hover {
-  color: #404bbf;
+  color: var(--button-primary-hover);
 }
 
 [data-color]:hover {
@@ -253,7 +252,7 @@ body {
   justify-content: flex-start;
   text-align: center;
   font-size: 16px;
-  color: #fff;
+  color: var(--button-filter);
   font-family: Roboto;
   cursor: pointer;
 }
@@ -268,7 +267,7 @@ body {
   padding: 12px 24px;
   text-align: center;
   font-size: 16px;
-  color: #4d5ae5;
+  color: var(--button-primary-hover);
   font-family: Roboto;
 }
 
@@ -297,7 +296,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .row1 li {
@@ -311,7 +310,7 @@ body {
   height: 420px;
   text-align: left;
   font-size: 20px;
-  color: #2e2f42;
+  color: var(--primary-text-color);
   font-family: Roboto;
 }
 
@@ -336,7 +335,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .row2 li {
@@ -350,7 +349,7 @@ body {
   height: 420px;
   text-align: left;
   font-size: 20px;
-  color: #2e2f42;
+  color: var(--primary-text-color);
   font-family: Roboto;
 }
 
@@ -375,7 +374,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
-  color: #434455;
+  color: var(--primary-text-color);
 }
 
 .row3 li {
@@ -389,7 +388,7 @@ body {
   height: 420px;
   text-align: left;
   font-size: 20px;
-  color: #2e2f42;
+  color: var(--primary-text-color);
   font-family: Roboto;
 }
 
@@ -410,7 +409,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-family: Raleway;
-  color: #4d5ae5;
+  color: var(--accent-color);
   text-align: left;
   display: flex;
   align-items: center;
@@ -425,7 +424,7 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   font-family: Raleway;
-  color: #f4f4fd;
+  color: var(--primary-white-color);
   text-align: left;
   display: flex;
   align-items: center;
@@ -450,5 +449,5 @@ body {
   margin-right: 16px; /* Adjust the spacing*/
 }
 .dark-bg p {
-  color: #f4f4fd;
+  color: var(--primary-white-color);
 }
